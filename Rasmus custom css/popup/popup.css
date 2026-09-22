@@ -1,0 +1,89 @@
+body {
+    width: 400px;
+    margin: 0;
+}
+
+main {
+    padding: 16px;
+}
+
+.rasmus-header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    margin: 0 0 16px;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+
+    border: 1px solid #000000;
+    padding: 8px;
+    margin-bottom: 14px;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus {
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    padding: 8px;
+    margin-bottom: 14px;
+}
+
+textarea {
+    height: 250px;
+
+    resize: vertical;
+    font-size: 13px;
+}
+
+.rasmus-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 14px;
+}
+
+.rasmus-toggle input {
+    margin: 0;
+}
+
+button {
+    width: 100%;
+
+    padding: 9px;
+
+    border: 0;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 10px;
+
+    text-align: center;
+
+    font-size: 12px;
+}

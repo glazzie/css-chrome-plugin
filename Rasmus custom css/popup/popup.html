@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rasmus Custom Styles</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+
+    <body>
+
+        <header class="rasmus-header">
+            <h1>Rasmus Custom Styles</h1>
+        </header>
+
+        <main>
+            <label for="rasmus-site">Website</label>
+            <input type="text" id="rasmus-site" readonly>
+
+            <label for="rasmus-css"><span style="color: #007acc;">C</span><span style="color: #b42424;">S</span><span style="color: #139c35;">S</span></label>
+            <textarea id="rasmus-css"></textarea>
+
+            <label class="rasmus-toggle">
+                <input type="checkbox" id="rasmus-enabled">
+                <span>Enabled</span>
+            </label>
+
+            <button id="rasmus-save">Save</button>
+
+            <div id="rasmus-status"></div>
+
+        </main>
+
+        <script src="popup.js"></script>
+
+    </body>
+</html>
